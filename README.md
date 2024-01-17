@@ -31,3 +31,14 @@ noisy encoding tests one hidden layer: 'nsEncode-L3'
 noisy encoding tests one hidden layer: 'recog'
 
 architecture comparisons: 'arch compare'
+
+
+For example, to reproduce the plots for the online-continual task with the one hidden layer models, run 
+
+main.py --test OnCont-L1
+
+followed by 
+
+main.py --plot OnCont-L1
+
+
