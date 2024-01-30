@@ -9,7 +9,6 @@ To reproduce data run:
 
   main.py --test argument
 
-
 To reproduce plots run:
 
 main.py --plot argument
