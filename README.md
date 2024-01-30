@@ -7,7 +7,9 @@ All datasets besides the TinyImagenet dataset are downloaded automatically via P
 
 To reproduce data run:
 
+'''
 main.py --test argument
+'''
 
 
 To reproduce plots run:
