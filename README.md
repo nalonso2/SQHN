@@ -1,44 +1,44 @@
 Code used for the paper 'A Sparse Quantized Hopfield Network for Online-Continual Memory'.
 
-Python 3.7.6 and Pytorch 1.10.0 were used to generate results.
+Run with Python 3.7.6 and Pytorch 1.10.0.
 
 All datasets besides the TinyImagenet dataset are downloaded automatically via Pytorch. To download TinyImagenet see https://github.com/tjmoon0104/pytorch-tiny-imagenet?tab=readme-ov-file
 
 
-To reproduce data run:
+To reproduce data from a training run/experiment:
 
-main.py --test argument
-
-
-To reproduce plots run:
-
-main.py --plot argument
+<code>main.py --test argument</code>
 
 
-The arguments for the various tests are below. 
-These arguments are used to reproduce tests and plots.
+To reproduce plots for a training run/experiment:
 
-associative memory comparisons: 'assoc_comp'
+<code>main.py --plot argument</code>
 
-online-continual tests one hidden layer: 'OnCont-L1'
 
-online-continual tests three hidden layer: 'OnCont-L3'
+Here are the arguments for the various experiments
+used to reproduce tests and plots:
 
-noisy encoding tests one hidden layer: 'nsEncode-L1'
+associative memory comparisons: <code>assoc_comp</code>
 
-noisy encoding tests one hidden layer: 'nsEncode-L3'
+online-continual tests one hidden layer: <code>OnCont-L1</code>
 
-noisy encoding tests one hidden layer: 'recog'
+online-continual tests three hidden layer: <code>OnCont-L3</code>
 
-architecture comparisons: 'arch compare'
+noisy encoding tests one hidden layer: <code>nsEncode-L1</code>
+
+noisy encoding tests one hidden layer: <code>nsEncode-L3</code>
+
+noisy encoding tests one hidden layer: <code>recog</code>
+
+architecture comparisons: <code>arch compare</code>
 
 
 For example, to reproduce the plots for the online-continual task with the one hidden layer models, run 
 
-main.py --test OnCont-L1
+<code>main.py --test OnCont-L1</code>
 
 followed by 
 
-main.py --plot OnCont-L1
+<code>main.py --plot OnCont-L1</code>
 
 
